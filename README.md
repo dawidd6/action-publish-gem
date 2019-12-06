@@ -1,6 +1,6 @@
 # Publish gem Github Action
 
-An action that builds and then publishes a Ruby gem to rubygems.org.
+An action that builds and then publishes a Ruby gem to [rubygems.org](https://rubygems.org).
 
 ## Usage
 
