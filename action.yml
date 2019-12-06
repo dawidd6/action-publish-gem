@@ -1,12 +1,13 @@
-name: 'Container Action Template'
-description: 'Get started with Container actions'
-author: 'GitHub'
-inputs: 
-  myInput:
-    description: 'Input to use'
-    default: 'world'
+name: Publish gem
+description: Build and publish a Ruby gem
+author: dawidd6
+branding:
+  icon: upload-cloud
+  color: red
+inputs:
+  api_key:
+    description: Rubygems.org API key
+    required: true
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.myInput }}
+  using: docker
+  image: Dockerfile
