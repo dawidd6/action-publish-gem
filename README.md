@@ -2,6 +2,8 @@
 
 An action that builds and then publishes a Ruby gem to [rubygems.org](https://rubygems.org).
 
+Will find every `.gemspec` file in current directory and publish a gem for it.
+
 ## Usage
 
 ```yaml
