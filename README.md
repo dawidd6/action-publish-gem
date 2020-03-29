@@ -15,7 +15,7 @@ on:
 ---
 
 - name: Publish gem
-  uses: dawidd6/action-publish-gem@master
+  uses: dawidd6/action-publish-gem@v1
   with:
     api_key: ${{secrets.RUBYGEMS_API_KEY}}
 ```
