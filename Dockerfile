@@ -1,5 +1,5 @@
 FROM ruby:alpine
 
-COPY *.rb /
+COPY main.rb /
 
 ENTRYPOINT ["/main.rb"]
