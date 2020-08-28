@@ -11,7 +11,7 @@ inputs:
 runs:
   using: composite
   steps:
-    - run: $GITHUB_ACTION_PATH/main.rb
-      shell: bash
+    - run: ruby -W0 $GITHUB_ACTION_PATH/main.rb
+      shell: sh
       env:
         API_KEY: ${{inputs.api_key}}
