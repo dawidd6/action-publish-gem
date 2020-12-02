@@ -16,7 +16,7 @@ credentials_file_path = "#{credentials_dir_path}/credentials"
 credentials = <<~END_OF_CREDENTIALS
   ---
   :rubygems_api_key: #{api_key}
-  :github: #{github_token}
+  :github: Bearer #{github_token}
 END_OF_CREDENTIALS
 
 FileUtils.mkdir_p(credentials_dir_path)
