@@ -9,5 +9,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
+  spec.metadata = { "github_repo" => spec.homepage }
+
   spec.files = `git ls-files`.split("\n")
 end
