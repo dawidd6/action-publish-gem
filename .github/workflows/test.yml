@@ -1,4 +1,4 @@
-name: Test action
+name: Test Action
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  main:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
